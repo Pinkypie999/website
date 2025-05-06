@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+#Study {
+    justify-content: right;
+    background-color: lightpink;
+    width: 20%;
+    padding: 10px 5px;
+}
+
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+#Schedule {
+    background-color: aliceblue;
+    width: 20%;
+    padding: 10px 5px;
+}
+
+
+.element::before {
+    content: url('path/to/your/image.jpg');
+    display: block; /* Ensures the image is displayed as a block element */
+    width: 100px; /* Adjust the width as needed */
+    height: auto; /* Maintains the aspect ratio */
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "poppins" sans-serif;
+    box-sizing: border-box;
+}
+.container {
+    justify-content: right;
+    width: 50%;
+    height: 200px;
+    background-color: lightpink;
+}
+
+.header {
+    max-width: 10000px;
+    position: relative;
+    margin: auto;
+}
+
+.header img {
+    width: 100%;
+    height: auto;
+}
+
+.header h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+    text-shadow: 2px 2px 4px #000000;
+    font-size: 75px;
+    font-weight: 200;
+    letter-spacing: 3px;
+}
+
+.quotes{
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    bottom: 15%;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.quotes h2{
+    font-size: 45px;
+    margin-top: 10px;
+    font-weight: 500;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+

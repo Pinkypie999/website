@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <!-- Font Awesome css -->
+    <title>Document</title>
+    <link rel="stylesheet" href="homepage2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+
+    <div class="header">
+        <img src="wave6.jpg">
+        <h1 id="current-time"></h1>
+        <div class="quotes">
+            <h2>Insert quote here</h2>
+        </div>
+    </div>
+
+    <h1 id="planner">student planner 🏵</h1>
+
+    <div class="row">
+        <div class="column1" style="background-color: white;">
+            <h2 id="study">Study Tools</h2>
+            <li><a href="Timer.html" target="_blank">⌛ Timer</a></li>
+            <li><a href="calendar.html" target="_blank">📆 Calendar</a></li>
+            <li><a href="Flashcards.html" target="_blank">🀦 Flashcards</a></li>
+        </div>
+
+        <div class="column2" style="background-color: rgb(247, 201, 201);">
+            <header>
+                <h1>My To Do List</h1>
+            </header>
+            <form action="">
+                <input type="text" class="todo-input">
+                <button class="todo-button" type="submit">
+                    <i class="fas fa-plus-circle fa-lg"></i>
+                </button>
+                <div class="select">
+                    <select name="todos" class="filter-todo">
+                        <option value="all">All</option>
+                        <option value="completed">Completed</option>
+                        <option value="incomplete">Incomplete</option>
+                    </select>
+                </div>
+            </form>
+        
+            <div class="todo-container">
+                <ul class="todo-list"></ul>
+        </div>
+
+    </div>
+
+        <div class="column3" style="background-color: rgb(255, 255, 255);">
+            <h2 id="schedule">schedule</h2>
+    <table>
+        <thead>
+            <tr>
+                <th id="time">time</th>
+                <th id="table_schedule">schedule</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td id="table_time"><input type="text" class="transparent-input" name="time" placeholder="Enter time"></td>
+                <td><input type="text" name="schedule" placeholder="Enter schedule"></td>
+            </tr>
+            <tr>
+                <td id="table_time"><input type="text" class="transparent-input" name="time" placeholder="Enter time"></td>
+                <td><input type="text" name="schedule" placeholder="Enter schedule"></td>
+            </tr>
+            <tr>
+                <td id="table_time"><input type="text" class="transparent-input" name="time" placeholder="Enter time"></td>
+                <td><input type="text" name="schedule" placeholder="Enter schedule"></td>
+            </tr>
+        </tbody>
+    </table>
+        </div>
+
+    <script src="homepage2.js">
+        
+    </script>
+</body>
+</html>
